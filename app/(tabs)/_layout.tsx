@@ -9,7 +9,7 @@ export default function TabsLayout() {
                 options={{
                     title: 'Home',
                     tabBarIcon: ({ color }) => {
-                        return <Entypo name="home" size={24} color="black" />
+                        return <Entypo name="home" size={24} color={color} />
                     }
                 }}
             />
@@ -18,7 +18,7 @@ export default function TabsLayout() {
                 options={{
                     title: 'Friends',
                     tabBarIcon: ({ color }) => {
-                        return <FontAwesome5 name="user-friends" size={24} color="black" />
+                        return <FontAwesome5 name="user-friends" size={24} color={color} />
                     }
                 }}
             />
@@ -27,7 +27,7 @@ export default function TabsLayout() {
                 options={{
                     title: 'Inbox',
                     tabBarIcon: ({ color }) => {
-                        return <Entypo name="mail" size={24} color="black" />
+                        return <Entypo name="mail" size={24} color={color} />
                     }
                 }}
             />
@@ -36,7 +36,7 @@ export default function TabsLayout() {
                 options={{
                     title: 'New Post',
                     tabBarIcon: ({ color }) => {
-                        return <Entypo name="new-message" size={24} color="black" />
+                        return <Entypo name="new-message" size={24} color={color} />
                     }
                 }}
             />
@@ -45,7 +45,7 @@ export default function TabsLayout() {
                 options={{
                     title: 'Profile',
                     tabBarIcon: ({ color }) => {
-                        return <Feather name="settings" size={24} color="black" />
+                        return <Feather name="settings" size={24} color={color} />
                     }
                 }}
             />
